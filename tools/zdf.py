@@ -68,6 +68,9 @@ def export_csv(path):
     rows=[]
     for _,c in load_cases():
         rows.append({'case_id':c['case_id'],'protocol':c['protocol'],'chain':c.get('chain'),'scope':c['scope'],'classification':c['classification'],'evidence_grade':c.get('evidence_grade'),'bug_class':c['root_cause']['bug_class'],'impact':c['impact']['impact_type']})
+    if not rows:
+        print('no cases to export')
+        return
     with open(path,'w',newline='',encoding='utf-8') as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
     print(path)

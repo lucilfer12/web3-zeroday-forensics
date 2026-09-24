@@ -5,8 +5,17 @@ import argparse, yaml
 
 ROOT=Path(__file__).resolve().parents[1]
 
+ALLOWED_CLASSIFICATIONS=[
+    'confirmed_zero_day',
+    'likely_zero_day',
+    'publicly_disclosed_before_exploitation',
+    'exploited_vulnerability_timeline_unknown',
+    'not_zero_day',
+    'excluded',
+]
+
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('lead'); ap.add_argument('--classification',required=True); ap.add_argument('--grade',required=True,choices=['A','B','C','D']); args=ap.parse_args()
+    ap=argparse.ArgumentParser(); ap.add_argument('lead'); ap.add_argument('--classification',required=True,choices=ALLOWED_CLASSIFICATIONS); ap.add_argument('--grade',required=True,choices=['A','B','C','D']); args=ap.parse_args()
     q=yaml.safe_load((ROOT/'corpus/discovery_queue.yaml').read_text())
     hit=next((x for x in q if x['lead_id']==args.lead),None)
     if not hit: raise SystemExit('unknown lead')

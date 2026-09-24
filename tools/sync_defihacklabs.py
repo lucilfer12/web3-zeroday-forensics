@@ -6,7 +6,7 @@ from pathlib import Path
 
 BASE='https://raw.githubusercontent.com/SunWeb3Sec/DeFiHackLabs/main/'
 FILES=['README.md']+[f'past/{y}/README.md' for y in range(2020,2026)]
-PAT=re.compile(r'^###\s+(\d{8})\s+(.+?)\s+-\s+(.+?)\s*$',re.M)
+PAT=re.compile(r'^###\s+(\d{8})\s+(.+?)(?:\s+-\s+(.+?))?\s*$',re.M)
 
 def fetch(url):
     req=urllib.request.Request(url,headers={'User-Agent':'Web3-ZeroDay-Forensics/1.0'})
@@ -24,7 +24,7 @@ def main():
             continue
         for m in PAT.finditer(text):
             key=(m.group(1),re.sub(r'\s+',' ',m.group(2).strip()))
-            rows[key]={'date':m.group(1),'name':key[1],'reported_class':m.group(3).strip(),'upstream':'DeFiHackLabs','source_file':name}
+            rows[key]={'date':m.group(1),'name':key[1],'reported_class':(m.group(3).strip() if m.group(3) else 'unclassified'),'upstream':'DeFiHackLabs','source_file':name}
     with out.open('w',encoding='utf-8') as f:
         for row in sorted(rows.values(),key=lambda x:(x['date'],x['name'])):
             f.write(json.dumps(row,ensure_ascii=False)+'\n')
