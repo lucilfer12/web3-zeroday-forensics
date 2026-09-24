@@ -84,25 +84,29 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "format": "date"
         },
         "exploit_date": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "format": "date"
         },
         "patch_date": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "format": "date"
         },
         "public_disclosure_date": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "format": "date"
         }
       }
     },

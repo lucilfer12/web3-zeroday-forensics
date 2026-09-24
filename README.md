@@ -84,7 +84,25 @@ python -m tools.zdf validate
 python -m tools.zdf stats
 python -m tools.zdf report
 pytest -q
+python -m tools.research audit
+python -m tools.research coverage
+python -m tools.research report
+python tools/build_site.py
 ```
+
+## Research and search
+
+The project now has a read-only research layer for querying the curated corpus, measuring missing evidence, checking taxonomy and case relationships, and generating a deterministic static search page.
+
+```bash
+python -m tools.research search --query Euler
+python -m tools.research search --bug-class oracle_manipulation
+python -m tools.research search --classification confirmed_zero_day --grade A
+python -m tools.research coverage
+python -m tools.research audit
+```
+
+`site/index.html` is generated from the curated corpus. It contains no backend and makes no claims beyond the committed case records.
 
 ## Refreshing the public Web3 incident index
 

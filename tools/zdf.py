@@ -6,11 +6,11 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from urllib.parse import urlparse
 import yaml
-from jsonschema import Draft202012Validator
+from jsonschema import Draft202012Validator, FormatChecker
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = json.loads((ROOT/'schemas/case.schema.json').read_text())
-VALIDATOR = Draft202012Validator(SCHEMA)
+VALIDATOR = Draft202012Validator(SCHEMA, format_checker=FormatChecker())
 ALLOWED = set(SCHEMA['properties']['classification']['enum'])
 
 def load_cases():

@@ -1,0 +1,447 @@
+[
+  {
+    "case_id": "beanstalk-governance-2022",
+    "protocol": "Beanstalk",
+    "chain": "Ethereum",
+    "scope": "governance",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "flash_loan_governance",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "flash_loan_governance",
+      "voting_power_manipulation"
+    ],
+    "sources": [
+      "https://docs.bean.money/almanac/disclosures"
+    ]
+  },
+  {
+    "case_id": "conic-2023",
+    "protocol": "Conic Finance",
+    "chain": "Ethereum",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "read_only_reentrancy",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "oracle_manipulation",
+      "read_only_reentrancy"
+    ],
+    "sources": [
+      "https://medium.com/%40ConicFinance/post-mortem-eth-and-crvusd-omnipool-exploits-c9c7fa213a3d",
+      "https://itokenly.com/hacks/conic-finance"
+    ]
+  },
+  {
+    "case_id": "curve-vyper-2023",
+    "protocol": "Curve pools compiled with affected Vyper versions",
+    "chain": "Ethereum",
+    "scope": "smart_contract",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "B",
+    "bug_class": "compiler_generated_lock_failure",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "callback_reentrancy",
+      "compiler_generated_lock_failure"
+    ],
+    "sources": [
+      "https://www.llamarisk.com/research/curve-pool-reentrancy-exploit-postmortem"
+    ]
+  },
+  {
+    "case_id": "euler-v1-2023",
+    "protocol": "Euler Finance V1",
+    "chain": "Ethereum",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "insolvency_check_bypass",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "accounting_invariant_violation",
+      "collateral_accounting",
+      "liquidation_logic"
+    ],
+    "sources": [
+      "https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery"
+    ]
+  },
+  {
+    "case_id": "exactly-2023",
+    "protocol": "Exactly Protocol",
+    "chain": "Optimism",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "input_validation_failure",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "input_validation_failure",
+      "permit_validation"
+    ],
+    "sources": [
+      "https://medium.com/%40exactly_protocol/exactly-protocol-incident-post-mortem-b4293d97e3ed"
+    ]
+  },
+  {
+    "case_id": "harvest-curve-y-2020",
+    "protocol": "Harvest Finance",
+    "chain": "Ethereum",
+    "scope": "oracle",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "share_price_manipulation",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ],
+    "sources": [
+      "https://docs.harvest.finance/archive/archived/grain-token"
+    ]
+  },
+  {
+    "case_id": "harvest-fusdc-2020",
+    "protocol": "Harvest Finance",
+    "chain": "Ethereum",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "oracle_manipulation",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ],
+    "sources": [
+      "https://docs.harvest.finance/other/security/incidents/fusdc-fusdt-economic-attack-oct-26-2020"
+    ]
+  },
+  {
+    "case_id": "hedgey-2024",
+    "protocol": "Hedgey Finance",
+    "chain": "Ethereum / Arbitrum",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "authorization_bypass",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "authorization_bypass",
+      "state_desynchronization"
+    ],
+    "sources": [
+      "https://medium.com/hedgey/hedgey-exploit-post-mortem-784e9860fd8d"
+    ]
+  },
+  {
+    "case_id": "hundred-2023",
+    "protocol": "Hundred Finance",
+    "chain": "Optimism",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "B",
+    "bug_class": "donation_attack",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "donation_attack",
+      "rounding_or_precision"
+    ],
+    "sources": [
+      "https://gov.optimism.io/t/hundred-finance-phase-1-optimism-grant-enabled-token-rewards-launch/4098"
+    ]
+  },
+  {
+    "case_id": "kyberswap-elastic-2023",
+    "protocol": "KyberSwap Elastic",
+    "chain": "multiple EVM networks",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "rounding_or_precision",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "invariant_math_error",
+      "rounding_or_precision"
+    ],
+    "sources": [
+      "https://blog.kyberswap.com/post-mortem-kyberswap-elastic-exploit/"
+    ]
+  },
+  {
+    "case_id": "kyberswap-legacy-2023",
+    "protocol": "KyberSwap Elastic Legacy",
+    "chain": "multiple EVM networks",
+    "scope": "defi",
+    "classification": "publicly_disclosed_before_exploitation",
+    "evidence_grade": "A",
+    "bug_class": "accounting_invariant_violation",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "accounting_invariant_violation",
+      "reward_accounting"
+    ],
+    "sources": [
+      "https://support.kyberswap.com/hc/en-us/articles/13785791497113-What-is-KyberSwap-Elastic"
+    ]
+  },
+  {
+    "case_id": "nomad-bridge-2022",
+    "protocol": "Nomad Bridge",
+    "chain": "Ethereum / multiple EVM networks",
+    "scope": "bridge",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "initialization_failure",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "initialization_failure",
+      "message_validation_failure"
+    ],
+    "sources": [
+      "https://medium.com/nomad-xyz-blog/the-road-to-recovery-6abe5eec8ff1",
+      "https://www.chainscorelabs.com/protocol/ethereum/incidents-and-security-advisories/nomad-bridge-exploit-2022"
+    ]
+  },
+  {
+    "case_id": "pancakebunny-2021",
+    "protocol": "PancakeBunny",
+    "chain": "BNB Chain",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "oracle_manipulation",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ],
+    "sources": [
+      "https://pancakebunny.medium.com/code-security-the-past-present-and-future-4404009f301d"
+    ]
+  },
+  {
+    "case_id": "pancakebunny-oracle-variant",
+    "protocol": "PancakeBunny",
+    "chain": "BNB Chain",
+    "scope": "oracle",
+    "classification": "publicly_disclosed_before_exploitation",
+    "evidence_grade": "B",
+    "bug_class": "oracle_manipulation",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ],
+    "sources": [
+      "https://pancakebunny.medium.com/code-security-the-past-present-and-future-4404009f301d"
+    ]
+  },
+  {
+    "case_id": "pickle-pdai-2020",
+    "protocol": "Pickle Finance",
+    "chain": "Ethereum",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "unsafe_external_call",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "authorization_bypass",
+      "unsafe_external_call"
+    ],
+    "sources": [
+      "https://picklefinance.medium.com/pickle-was-hacked-and-there-has-been-a-loss-of-funds-414b99969c29"
+    ]
+  },
+  {
+    "case_id": "platypus-usp-2023",
+    "protocol": "Platypus Finance",
+    "chain": "Avalanche",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "insolvency_check_bypass",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "collateral_accounting",
+      "insolvency_check_bypass"
+    ],
+    "sources": [
+      "https://medium.com/platypus-finance/update-on-recovery-efforts-after-the-exploitation-a8f64acd5aa5"
+    ]
+  },
+  {
+    "case_id": "poly-network-2021",
+    "protocol": "Poly Network",
+    "chain": "multiple chains",
+    "scope": "cross_chain",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "authorization_bypass",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "authorization_bypass",
+      "bridge_accounting_failure"
+    ],
+    "sources": [
+      "https://medium.com/poly-network/honour-exploit-and-code-how-we-lost-610m-dollar-and-got-it-back-c4a7d0606267"
+    ]
+  },
+  {
+    "case_id": "radiant-2024",
+    "protocol": "Radiant Capital",
+    "chain": "Arbitrum",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "A",
+    "bug_class": "rounding_or_precision",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "initialization_failure",
+      "rounding_or_precision"
+    ],
+    "sources": [
+      "https://medium.com/%40RadiantCapital/post-mortem-report-radiant-capital-aea46cb985ae"
+    ]
+  },
+  {
+    "case_id": "uranium-2021",
+    "protocol": "Uranium Finance",
+    "chain": "BNB Chain",
+    "scope": "defi",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "B",
+    "bug_class": "invariant_math_error",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "accounting_invariant_violation",
+      "invariant_math_error"
+    ],
+    "sources": [
+      "https://immunefi.com/blog/bug-fix-reviews/hack-analysis-uranium-finance-april-2021/",
+      "https://nomoslabs.io/archive/uranium-finance-2021"
+    ]
+  },
+  {
+    "case_id": "wormhole-2022",
+    "protocol": "Wormhole",
+    "chain": "Solana / Ethereum",
+    "scope": "bridge",
+    "classification": "exploited_vulnerability_timeline_unknown",
+    "evidence_grade": "B",
+    "bug_class": "signature_verification_failure",
+    "timeline": {
+      "discovery_date": null,
+      "exploit_date": null,
+      "patch_date": null,
+      "public_disclosure_date": null
+    },
+    "invariant_tags": [
+      "guardian_or_validator_assumption",
+      "message_validation_failure"
+    ],
+    "sources": [
+      "https://wormhole.com/docs/protocol/security/",
+      "https://www.chainscorelabs.com/protocol/wormhole/incidents-and-security-advisories/2022-wormhole-bridge-exploit"
+    ]
+  }
+]

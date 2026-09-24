@@ -13,4 +13,8 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -m tools.zdf validate
       - run: python -m tools.zdf report
+      - run: python -m tools.research audit
+      - run: python -m tools.research report
+      - run: python tools/build_site.py
+      - run: git diff --exit-code
       - run: pytest -q
