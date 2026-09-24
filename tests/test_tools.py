@@ -1,5 +1,7 @@
 from pathlib import Path
-import subprocess, sys
+import subprocess
+import sys
+
 ROOT=Path(__file__).resolve().parents[1]
 
 def run(*args):
@@ -47,14 +49,21 @@ def test_export_csv_empty_corpus(tmp_path, monkeypatch):
 
 def test_promote_rejects_invalid_classification():
     r = run(
-        "-m",
-        "tools.promote",
-        "defihacklabs-20251201-001",
-        "--classification",
-        "totally_made_up_value",
-        "--grade",
-        "C",
+        '-m', 'tools.promote',
+        'defihacklabs-20251201-001',
+        '--classification', 'not_a_real_classification',
+        '--grade', 'C'
     )
-
     assert r.returncode != 0
-    assert "invalid choice" in r.stderr
+    assert 'invalid choice' in r.stderr
+
+
+def test_promote_accepts_valid_classification():
+    r = run(
+        '-m', 'tools.promote',
+        'defihacklabs-20251201-001',
+        '--classification', 'likely_zero_day',
+        '--grade', 'C'
+    )
+    assert r.returncode == 0
+    assert 'eligible for curation' in r.stdout
