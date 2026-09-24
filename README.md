@@ -100,6 +100,8 @@ python -m tools.research search --bug-class oracle_manipulation
 python -m tools.research search --classification confirmed_zero_day --grade A
 python -m tools.research coverage
 python -m tools.research audit
+python -m tools.triage summary
+python -m tools.triage search --reported-class "Access Control"
 ```
 
 `site/index.html` is generated from the curated corpus. It contains no backend and makes no claims beyond the committed case records.
