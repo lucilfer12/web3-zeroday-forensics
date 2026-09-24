@@ -1,0 +1,44 @@
+case_id: hedgey-2024
+cve: null
+protocol: Hedgey Finance
+chain: Ethereum / Arbitrum
+component: ClaimCampaigns
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: authorization_bypass
+  vulnerable_condition: Claim-campaign state and token-transfer authorization could
+    be manipulated through a contract path that did not preserve its intended ownership
+    relation.
+  violated_invariant: A claim or vesting transfer must only move tokens according
+    to an authenticated campaign/beneficiary state transition.
+  trust_boundary: user_to_contract
+  privilege_requirement: permissionless
+  affected_function: ClaimCampaigns
+impact:
+  impact_type: token and stablecoin loss
+  loss_estimate: large Ethereum and Arbitrum losses were reported in the post-mortem
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: A claim or vesting transfer must only move tokens according
+    to an authenticated campaign/beneficiary state transition.
+  invariant_tags:
+  - authorization_bypass
+  - state_desynchronization
+sources:
+- url: https://medium.com/hedgey/hedgey-exploit-post-mortem-784e9860fd8d
+  role: primary
+  note: null

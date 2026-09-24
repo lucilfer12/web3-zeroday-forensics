@@ -1,0 +1,44 @@
+case_id: beanstalk-governance-2022
+cve: null
+protocol: Beanstalk
+chain: Ethereum
+component: governance voting / emergency commit path
+scope: governance
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: flash_loan_governance
+  vulnerable_condition: Temporary voting power obtained with borrowed capital could
+    authorize an irreversible protocol action.
+  violated_invariant: Transient capital must not grant disproportionate irreversible
+    governance authority over protocol assets.
+  trust_boundary: governance_to_treasury
+  privilege_requirement: permissionless
+  affected_function: governance voting / emergency commit path
+impact:
+  impact_type: governance takeover and asset transfer
+  loss_estimate: public disclosures reported tens of millions of dollars in stolen
+    assets
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Transient capital must not grant disproportionate irreversible
+    governance authority over protocol assets.
+  invariant_tags:
+  - voting_power_manipulation
+  - flash_loan_governance
+sources:
+- url: https://docs.bean.money/almanac/disclosures
+  role: primary
+  note: null

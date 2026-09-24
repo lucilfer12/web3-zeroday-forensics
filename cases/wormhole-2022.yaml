@@ -1,0 +1,46 @@
+case_id: wormhole-2022
+cve: null
+protocol: Wormhole
+chain: Solana / Ethereum
+component: guardian/message verification
+scope: bridge
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: B
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: signature_verification_failure
+  vulnerable_condition: A legacy verification path failed to enforce the intended
+    guardian-set authentication relationship.
+  violated_invariant: Destination-chain minting must require an authenticated source
+    event and valid guardian authorization.
+  trust_boundary: bridge_message_to_destination
+  privilege_requirement: permissionless
+  affected_function: guardian/message verification
+impact:
+  impact_type: unauthorized wrapped-asset issuance
+  loss_estimate: 120,000 wETH was minted without a corresponding valid deposit
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Destination-chain minting must require an authenticated
+    source event and valid guardian authorization.
+  invariant_tags:
+  - message_validation_failure
+  - guardian_or_validator_assumption
+sources:
+- url: https://wormhole.com/docs/protocol/security/
+  role: primary
+  note: null
+- url: https://www.chainscorelabs.com/protocol/wormhole/incidents-and-security-advisories/2022-wormhole-bridge-exploit
+  role: technical
+  note: null

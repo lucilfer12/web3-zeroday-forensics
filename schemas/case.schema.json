@@ -1,0 +1,259 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Web3 ZeroDay Forensics Case",
+  "type": "object",
+  "required": [
+    "case_id",
+    "protocol",
+    "scope",
+    "classification",
+    "evidence_grade",
+    "root_cause",
+    "impact",
+    "sources"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "cve": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "protocol": {
+      "type": "string"
+    },
+    "chain": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "component": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "smart_contract",
+        "defi",
+        "bridge",
+        "governance",
+        "oracle",
+        "token",
+        "vault",
+        "upgradeability",
+        "verification",
+        "cross_chain"
+      ]
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "confirmed_zero_day",
+        "likely_zero_day",
+        "publicly_disclosed_before_exploitation",
+        "exploited_vulnerability_timeline_unknown",
+        "not_zero_day",
+        "excluded"
+      ]
+    },
+    "evidence_grade": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        null
+      ]
+    },
+    "timeline": {
+      "type": "object",
+      "properties": {
+        "discovery_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "exploit_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "patch_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "public_disclosure_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "root_cause": {
+      "type": "object",
+      "required": [
+        "bug_class",
+        "vulnerable_condition",
+        "violated_invariant"
+      ],
+      "properties": {
+        "bug_class": {
+          "type": "string"
+        },
+        "vulnerable_condition": {
+          "type": "string"
+        },
+        "violated_invariant": {
+          "type": "string"
+        },
+        "trust_boundary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "privilege_requirement": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "affected_function": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "impact": {
+      "type": "object",
+      "required": [
+        "impact_type"
+      ],
+      "properties": {
+        "impact_type": {
+          "type": "string"
+        },
+        "loss_estimate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "patch": {
+      "type": "object",
+      "properties": {
+        "strategy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "root_cause_fixed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "relations": {
+      "type": "object",
+      "properties": {
+        "variant_of": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "related_cases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "research": {
+      "type": "object",
+      "properties": {
+        "safe_regression_property": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "invariant_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "role"
+        ],
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "primary",
+              "technical",
+              "index",
+              "transaction",
+              "secondary"
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

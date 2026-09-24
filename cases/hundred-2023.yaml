@@ -1,0 +1,43 @@
+case_id: hundred-2023
+cve: null
+protocol: Hundred Finance
+chain: Optimism
+component: Compound V2 fork exchange-rate accounting
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: B
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: donation_attack
+  vulnerable_condition: An ERC-20/market exchange-rate path inherited a donation/rounding
+    weakness from Compound-style accounting.
+  violated_invariant: Share or exchange-rate calculations must not allow a direct
+    balance donation to distort redeemable value beyond the intended accounting state.
+  trust_boundary: user_to_contract
+  privilege_requirement: permissionless
+  affected_function: Compound V2 fork exchange-rate accounting
+impact:
+  impact_type: market drain
+  loss_estimate: Hundred reported that Optimism markets were drained
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Share or exchange-rate calculations must not allow a direct
+    balance donation to distort redeemable value beyond the intended accounting state.
+  invariant_tags:
+  - donation_attack
+  - rounding_or_precision
+sources:
+- url: https://gov.optimism.io/t/hundred-finance-phase-1-optimism-grant-enabled-token-rewards-launch/4098
+  role: secondary
+  note: null

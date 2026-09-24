@@ -1,0 +1,43 @@
+case_id: harvest-fusdc-2020
+cve: null
+protocol: Harvest Finance
+chain: Ethereum
+component: fUSDC/fUSDT vault strategy valuation
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: oracle_manipulation
+  vulnerable_condition: Vault share accounting trusted a manipulable instantaneous
+    external pool price during an atomic economic sequence.
+  violated_invariant: Share mint/redeem accounting must not convert transient externally
+    manipulated pool state into durable depositor value.
+  trust_boundary: oracle_to_contract
+  privilege_requirement: permissionless
+  affected_function: fUSDC/fUSDT vault strategy valuation
+impact:
+  impact_type: vault asset loss
+  loss_estimate: approximately $24M reported by Harvest
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Share mint/redeem accounting must not convert transient
+    externally manipulated pool state into durable depositor value.
+  invariant_tags:
+  - oracle_manipulation
+  - share_price_manipulation
+sources:
+- url: https://docs.harvest.finance/other/security/incidents/fusdc-fusdt-economic-attack-oct-26-2020
+  role: primary
+  note: null

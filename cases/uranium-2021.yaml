@@ -1,0 +1,46 @@
+case_id: uranium-2021
+cve: null
+protocol: Uranium Finance
+chain: BNB Chain
+component: pair swap constant-product validation
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: B
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: invariant_math_error
+  vulnerable_condition: A migration changed a fee/math constant without updating the
+    corresponding swap validation relation.
+  violated_invariant: AMM reserve transitions must preserve the intended constant-product
+    inequality under the exact same fee parameters used by the pricing formula.
+  trust_boundary: user_to_contract
+  privilege_requirement: permissionless
+  affected_function: pair swap constant-product validation
+impact:
+  impact_type: AMM reserve drain
+  loss_estimate: roughly $50M reported by multiple technical analyses
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: AMM reserve transitions must preserve the intended constant-product
+    inequality under the exact same fee parameters used by the pricing formula.
+  invariant_tags:
+  - invariant_math_error
+  - accounting_invariant_violation
+sources:
+- url: https://immunefi.com/blog/bug-fix-reviews/hack-analysis-uranium-finance-april-2021/
+  role: technical
+  note: null
+- url: https://nomoslabs.io/archive/uranium-finance-2021
+  role: technical
+  note: null

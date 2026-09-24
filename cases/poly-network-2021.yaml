@@ -1,0 +1,44 @@
+case_id: poly-network-2021
+cve: null
+protocol: Poly Network
+chain: multiple chains
+component: cross-chain keeper/authorization flow
+scope: cross_chain
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: authorization_bypass
+  vulnerable_condition: A cross-chain authorization path allowed an attacker-controlled
+    message context to reach privileged asset-management logic.
+  violated_invariant: Cross-chain messages must authenticate both the message content
+    and the authority authorized to perform the requested state transition.
+  trust_boundary: bridge_message_to_destination
+  privilege_requirement: permissionless
+  affected_function: cross-chain keeper/authorization flow
+impact:
+  impact_type: unauthorized cross-chain asset transfer
+  loss_estimate: more than $610M in assets were initially moved, with later recovery
+    reported by the protocol
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Cross-chain messages must authenticate both the message
+    content and the authority authorized to perform the requested state transition.
+  invariant_tags:
+  - authorization_bypass
+  - bridge_accounting_failure
+sources:
+- url: https://medium.com/poly-network/honour-exploit-and-code-how-we-lost-610m-dollar-and-got-it-back-c4a7d0606267
+  role: primary
+  note: null

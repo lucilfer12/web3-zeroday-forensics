@@ -1,0 +1,972 @@
+- lead_id: defihacklabs-20251201-001
+  incident_date: '20251201'
+  name: yETH
+  reported_class: Unsafe Math
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20251110-002
+  incident_date: '20251110'
+  name: DRLVaultV3
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20251104-003
+  incident_date: '20251104'
+  name: Moonwell
+  reported_class: Faulty Oracle
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20251103-004
+  incident_date: '20251103'
+  name: BalancerV2
+  reported_class: Precision Loss
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20251020-005
+  incident_date: '20251020'
+  name: SharwaFinance
+  reported_class: Post Insolvency Check
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20251007-006
+  incident_date: '20251007'
+  name: TokenHolder
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20251004-007
+  incident_date: '20251004'
+  name: Abracadabra
+  reported_class: Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20251004-008
+  incident_date: '20251004'
+  name: MIMSpell3
+  reported_class: Bypassed Insolvency Check
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250918-009
+  incident_date: '20250918'
+  name: NGP
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250913-010
+  incident_date: '20250913'
+  name: Kame
+  reported_class: Arbitary External Call
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250830-011
+  incident_date: '20250830'
+  name: EverValueCoin
+  reported_class: Arbitrage
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250831-012
+  incident_date: '20250831'
+  name: Hexotic
+  reported_class: Incorrect Input Validation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250827-013
+  incident_date: '20250827'
+  name: '0xf340'
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250823-014
+  incident_date: '20250823'
+  name: EquilibriaEPendle
+  reported_class: Reward Accounting Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250823-015
+  incident_date: '20250823'
+  name: ABCCApp
+  reported_class: Lack of Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250822-016
+  incident_date: '20250822'
+  name: Unverified_6f7a
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250820-017
+  incident_date: '20250820'
+  name: MulticallWithXera
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250820-018
+  incident_date: '20250820'
+  name: '0x8d2e'
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250819-019
+  incident_date: '20250819'
+  name: PresaleV5
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250817-020
+  incident_date: '20250817'
+  name: AutoPooledTradingBot
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250816-021
+  incident_date: '20250816'
+  name: unverified
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250816-022
+  incident_date: '20250816'
+  name: d3xai
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250815-023
+  incident_date: '20250815'
+  name: SizeFlashLoanLooping
+  reported_class: Arbitrary External Call
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250815-024
+  incident_date: '20250815'
+  name: PDZ
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250815-025
+  incident_date: '20250815'
+  name: SizeCredit
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250813-026
+  incident_date: '20250813'
+  name: BeefyZapRouter
+  reported_class: Arbitrary External Call
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250813-027
+  incident_date: '20250813'
+  name: YuliAI
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250813-028
+  incident_date: '20250813'
+  name: coinbase
+  reported_class: Misconfiguration
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250813-029
+  incident_date: '20250813'
+  name: Grizzifi
+  reported_class: Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250812-030
+  incident_date: '20250812'
+  name: BaseBebopSettlement
+  reported_class: Arbitrary External Call
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250812-031
+  incident_date: '20250812'
+  name: Bebop
+  reported_class: Arbitrary user input
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250811-032
+  incident_date: '20250811'
+  name: WXC
+  reported_class: Incorrect token burn mechanism
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250808-033
+  incident_date: '20250808'
+  name: ArbitrumBaseSwapper
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250805-034
+  incident_date: '20250805'
+  name: MyCoinMaster
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250804-035
+  incident_date: '20250804'
+  name: BscInitcodeToken
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250801-036
+  incident_date: '20250801'
+  name: PendleReflector
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250729-037
+  incident_date: '20250729'
+  name: AnyswapWETHPermit
+  reported_class: Permit Validation Bypass
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250728-038
+  incident_date: '20250728'
+  name: SuperRare
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250728-039
+  incident_date: '20250728'
+  name: AvaxBIFKNPair
+  reported_class: Flash Swap Accounting
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250726-040
+  incident_date: '20250726'
+  name: Unverified670471
+  reported_class: Unchecked Flash Loan Callback
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250726-041
+  incident_date: '20250726'
+  name: Unverified6883
+  reported_class: Fake Uniswap Callback
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250726-042
+  incident_date: '20250726'
+  name: MulticallWithETH
+  reported_class: arbitrary-call
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250725-043
+  incident_date: '20250725'
+  name: WhereIsMyDragonTreasure
+  reported_class: Fixed Reward Redemption
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250724-044
+  incident_date: '20250724'
+  name: SWAPPStaking
+  reported_class: Incorrect Reward calculation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250724-045
+  incident_date: '20250724'
+  name: EmptySetReserve
+  reported_class: Fixed Order Swap
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250721-046
+  incident_date: '20250721'
+  name: BoJLeverageMarket
+  reported_class: Liquidity Index Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250720-047
+  incident_date: '20250720'
+  name: Stepp2p
+  reported_class: Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250717-048
+  incident_date: '20250717'
+  name: unverified
+  reported_class: Signature Verification
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250717-049
+  incident_date: '20250717'
+  name: WETC
+  reported_class: Incorrect Burn Logic
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250716-050
+  incident_date: '20250716'
+  name: StrategyLlamaLendConvex
+  reported_class: Share Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250716-051
+  incident_date: '20250716'
+  name: VDS
+  reported_class: Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250713-052
+  incident_date: '20250713'
+  name: UPENG
+  reported_class: Incorrect Burn Logic
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250709-053
+  incident_date: '20250709'
+  name: GMX
+  reported_class: Share price manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250705-054
+  incident_date: '20250705'
+  name: ActivePoolScrvUsd
+  reported_class: Urgent Redemption
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250705-055
+  incident_date: '20250705'
+  name: Unverified
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250705-056
+  incident_date: '20250705'
+  name: RANT
+  reported_class: Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250702-057
+  incident_date: '20250702'
+  name: FPC
+  reported_class: Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250702-058
+  incident_date: '20250702'
+  name: ActivePoolUrgentRedemption
+  reported_class: Urgent Redemption
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250629-059
+  incident_date: '20250629'
+  name: Stead
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250628-060
+  incident_date: '20250628'
+  name: InitcodeFactoryFees
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250626-061
+  incident_date: '20250626'
+  name: ResupplyFi
+  reported_class: Share price manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250625-062
+  incident_date: '20250625'
+  name: Unverified_b5cb
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250625-063
+  incident_date: '20250625'
+  name: SiloFinance
+  reported_class: Arbitrary Call
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250625-064
+  incident_date: '20250625'
+  name: ParaSwapDAIApproval
+  reported_class: Stale Approval
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250623-065
+  incident_date: '20250623'
+  name: GradientMakerPool
+  reported_class: Price Oracle Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250620-066
+  incident_date: '20250620'
+  name: TokenVault
+  reported_class: Incorrect dividends calculation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250620-067
+  incident_date: '20250620'
+  name: HoldSafe
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250620-068
+  incident_date: '20250620'
+  name: Gangsterfinance
+  reported_class: Incorrect dividends
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250619-069
+  incident_date: '20250619'
+  name: SinstakeZombie
+  reported_class: Incorrect dividends calculation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250619-070
+  incident_date: '20250619'
+  name: BasePricePool
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250619-071
+  incident_date: '20250619'
+  name: BankrollStack
+  reported_class: Incorrect dividends calculation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250619-072
+  incident_date: '20250619'
+  name: BankrollNetwork
+  reported_class: Incorrect dividends calculation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250618-073
+  incident_date: '20250618'
+  name: BankrollStackPlus
+  reported_class: Incorrect dividends calculation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250617-074
+  incident_date: '20250617'
+  name: MetaPool
+  reported_class: Infinite Mint via unvalidated ERC4626 mint
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250615-075
+  incident_date: '20250615'
+  name: WaleCoin
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250615-076
+  incident_date: '20250615'
+  name: FixedTokenBSwap
+  reported_class: Price Oracle Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250614-077
+  incident_date: '20250614'
+  name: TSAggregatorGeneric
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250612-078
+  incident_date: '20250612'
+  name: AAVEBoost
+  reported_class: Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250610-079
+  incident_date: '20250610'
+  name: Unverified_8490
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250609-080
+  incident_date: '20250609'
+  name: BitCrown
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250608-081
+  incident_date: '20250608'
+  name: TokenFactory
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250603-082
+  incident_date: '20250603'
+  name: PegaBall
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250531-083
+  incident_date: '20250531'
+  name: DogeAlliance
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250528-084
+  incident_date: '20250528'
+  name: Corkprotocol
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250528-085
+  incident_date: '20250528'
+  name: Unverified_91a1
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250527-086
+  incident_date: '20250527'
+  name: UsualMoney
+  reported_class: Arbitrage
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250526-087
+  incident_date: '20250526'
+  name: YDT
+  reported_class: Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250525-088
+  incident_date: '20250525'
+  name: Unverified_0000
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250525-089
+  incident_date: '20250525'
+  name: Dumbo
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250524-090
+  incident_date: '20250524'
+  name: RICE
+  reported_class: Lack of Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250519-091
+  incident_date: '20250519'
+  name: BetaPresale
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250518-092
+  incident_date: '20250518'
+  name: KRC
+  reported_class: deflationary token
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250516-093
+  incident_date: '20250516'
+  name: Bitallx
+  reported_class: Payout Amount Mismatch
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250514-094
+  incident_date: '20250514'
+  name: Unwarp
+  reported_class: lack-of-access-control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250511-095
+  incident_date: '20250511'
+  name: MBUToken
+  reported_class: Price Manipulation not confirmed
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250509-096
+  incident_date: '20250509'
+  name: Nalakuvara_LotteryTicket50
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250506-097
+  incident_date: '20250506'
+  name: Crosswise
+  reported_class: Trusted Forwarder Spoof
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250429-098
+  incident_date: '20250429'
+  name: FlyLong
+  reported_class: Balance Forgery
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250428-099
+  incident_date: '20250428'
+  name: tcdp
+  reported_class: Broken transferFrom Allowance Check
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250427-100
+  incident_date: '20250427'
+  name: multitransferswap
+  reported_class: Business Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250427-101
+  incident_date: '20250427'
+  name: AventaRewardClaim
+  reported_class: Claim Accounting
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250426-102
+  incident_date: '20250426'
+  name: Lifeprotocol
+  reported_class: Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250426-103
+  incident_date: '20250426'
+  name: ImpermaxV3
+  reported_class: FlashLoan Price Oracle Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250418-104
+  incident_date: '20250418'
+  name: BTNFT
+  reported_class: Claim Rewards Without Protection
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250416-105
+  incident_date: '20250416'
+  name: YVToken
+  reported_class: Not Slippage Protection
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250408-106
+  incident_date: '20250408'
+  name: Laundromat
+  reported_class: Logic Flaw
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250407-107
+  incident_date: '20250407'
+  name: AmpKashi
+  reported_class: AMP Collateral Borrow Price Manipulation
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.
+- lead_id: defihacklabs-20250404-108
+  incident_date: '20250404'
+  name: AIRWA
+  reported_class: Access Control
+  status: unverified_lead
+  upstream: DeFiHackLabs
+  upstream_url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  notes: Discovery metadata only. Requires contract-level root-cause and timeline
+    verification before promotion.

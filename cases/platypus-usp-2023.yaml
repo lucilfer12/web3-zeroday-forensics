@@ -1,0 +1,43 @@
+case_id: platypus-usp-2023
+cve: null
+protocol: Platypus Finance
+chain: Avalanche
+component: USP solvency check
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: insolvency_check_bypass
+  vulnerable_condition: Collateral accounting and solvency validation permitted a
+    state that did not preserve the protocol debt invariant.
+  violated_invariant: Stablecoin mint/redemption must not allow a borrower to receive
+    value while the protocol considers an undercollateralized state solvent.
+  trust_boundary: user_to_contract
+  privilege_requirement: permissionless
+  affected_function: USP solvency check
+impact:
+  impact_type: stablecoin and collateral loss
+  loss_estimate: approximately $9.1M across the reported incident
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Stablecoin mint/redemption must not allow a borrower to
+    receive value while the protocol considers an undercollateralized state solvent.
+  invariant_tags:
+  - insolvency_check_bypass
+  - collateral_accounting
+sources:
+- url: https://medium.com/platypus-finance/update-on-recovery-efforts-after-the-exploitation-a8f64acd5aa5
+  role: primary
+  note: null

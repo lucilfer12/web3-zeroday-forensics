@@ -1,0 +1,43 @@
+case_id: pickle-pdai-2020
+cve: null
+protocol: Pickle Finance
+chain: Ethereum
+component: pDAI Jar / Controller
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: unsafe_external_call
+  vulnerable_condition: A composed controller and jar architecture exposed an attacker-controlled
+    path that changed strategy behavior and asset accounting.
+  violated_invariant: Strategy/controller transitions must not let untrusted call
+    paths alter asset custody or accounting beyond their defined authority.
+  trust_boundary: contract_to_contract
+  privilege_requirement: permissionless
+  affected_function: pDAI Jar / Controller
+impact:
+  impact_type: vault asset loss
+  loss_estimate: 19,759,355 DAI reported by Pickle
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Strategy/controller transitions must not let untrusted
+    call paths alter asset custody or accounting beyond their defined authority.
+  invariant_tags:
+  - authorization_bypass
+  - unsafe_external_call
+sources:
+- url: https://picklefinance.medium.com/pickle-was-hacked-and-there-has-been-a-loss-of-funds-414b99969c29
+  role: primary
+  note: null

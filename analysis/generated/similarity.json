@@ -1,0 +1,65 @@
+[
+  {
+    "a": "harvest-curve-y-2020",
+    "b": "harvest-fusdc-2020",
+    "score": 1.0,
+    "shared": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ]
+  },
+  {
+    "a": "harvest-curve-y-2020",
+    "b": "pancakebunny-2021",
+    "score": 1.0,
+    "shared": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ]
+  },
+  {
+    "a": "harvest-curve-y-2020",
+    "b": "pancakebunny-oracle-variant",
+    "score": 1.0,
+    "shared": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ]
+  },
+  {
+    "a": "harvest-fusdc-2020",
+    "b": "pancakebunny-2021",
+    "score": 1.0,
+    "shared": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ]
+  },
+  {
+    "a": "harvest-fusdc-2020",
+    "b": "pancakebunny-oracle-variant",
+    "score": 1.0,
+    "shared": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ]
+  },
+  {
+    "a": "pancakebunny-2021",
+    "b": "pancakebunny-oracle-variant",
+    "score": 1.0,
+    "shared": [
+      "oracle_manipulation",
+      "share_price_manipulation"
+    ]
+  },
+  {
+    "a": "euler-v1-2023",
+    "b": "platypus-usp-2023",
+    "score": 0.5,
+    "shared": [
+      "collateral_accounting",
+      "insolvency_check_bypass"
+    ]
+  }
+]

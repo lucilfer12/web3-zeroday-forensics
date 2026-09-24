@@ -1,0 +1,120 @@
+- case_id: euler-v1-2023
+  protocol: Euler Finance V1
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: insolvency_check_bypass
+  scope: defi
+- case_id: beanstalk-governance-2022
+  protocol: Beanstalk
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: flash_loan_governance
+  scope: governance
+- case_id: wormhole-2022
+  protocol: Wormhole
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: B
+  bug_class: signature_verification_failure
+  scope: bridge
+- case_id: nomad-bridge-2022
+  protocol: Nomad Bridge
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: initialization_failure
+  scope: bridge
+- case_id: poly-network-2021
+  protocol: Poly Network
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: authorization_bypass
+  scope: cross_chain
+- case_id: harvest-fusdc-2020
+  protocol: Harvest Finance
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: oracle_manipulation
+  scope: defi
+- case_id: pickle-pdai-2020
+  protocol: Pickle Finance
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: unsafe_external_call
+  scope: defi
+- case_id: pancakebunny-2021
+  protocol: PancakeBunny
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: oracle_manipulation
+  scope: defi
+- case_id: uranium-2021
+  protocol: Uranium Finance
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: B
+  bug_class: invariant_math_error
+  scope: defi
+- case_id: curve-vyper-2023
+  protocol: Curve pools compiled with affected Vyper versions
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: B
+  bug_class: compiler_generated_lock_failure
+  scope: smart_contract
+- case_id: platypus-usp-2023
+  protocol: Platypus Finance
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: insolvency_check_bypass
+  scope: defi
+- case_id: conic-2023
+  protocol: Conic Finance
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: read_only_reentrancy
+  scope: defi
+- case_id: kyberswap-elastic-2023
+  protocol: KyberSwap Elastic
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: rounding_or_precision
+  scope: defi
+- case_id: exactly-2023
+  protocol: Exactly Protocol
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: input_validation_failure
+  scope: defi
+- case_id: hedgey-2024
+  protocol: Hedgey Finance
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: authorization_bypass
+  scope: defi
+- case_id: radiant-2024
+  protocol: Radiant Capital
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: rounding_or_precision
+  scope: defi
+- case_id: hundred-2023
+  protocol: Hundred Finance
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: B
+  bug_class: donation_attack
+  scope: defi
+- case_id: harvest-curve-y-2020
+  protocol: Harvest Finance
+  classification: exploited_vulnerability_timeline_unknown
+  evidence_grade: A
+  bug_class: share_price_manipulation
+  scope: oracle
+- case_id: pancakebunny-oracle-variant
+  protocol: PancakeBunny
+  classification: publicly_disclosed_before_exploitation
+  evidence_grade: B
+  bug_class: oracle_manipulation
+  scope: oracle
+- case_id: kyberswap-legacy-2023
+  protocol: KyberSwap Elastic Legacy
+  classification: publicly_disclosed_before_exploitation
+  evidence_grade: A
+  bug_class: accounting_invariant_violation
+  scope: defi

@@ -1,0 +1,21 @@
+case_id,protocol,chain,scope,classification,evidence_grade,bug_class,impact
+beanstalk-governance-2022,Beanstalk,Ethereum,governance,exploited_vulnerability_timeline_unknown,A,flash_loan_governance,governance takeover and asset transfer
+conic-2023,Conic Finance,Ethereum,defi,exploited_vulnerability_timeline_unknown,A,read_only_reentrancy,Omnipool asset loss
+curve-vyper-2023,Curve pools compiled with affected Vyper versions,Ethereum,smart_contract,exploited_vulnerability_timeline_unknown,B,compiler_generated_lock_failure,liquidity loss from affected pools
+euler-v1-2023,Euler Finance V1,Ethereum,defi,exploited_vulnerability_timeline_unknown,A,insolvency_check_bypass,protocol asset loss
+exactly-2023,Exactly Protocol,Optimism,defi,exploited_vulnerability_timeline_unknown,A,input_validation_failure,lending protocol asset loss
+harvest-curve-y-2020,Harvest Finance,Ethereum,oracle,exploited_vulnerability_timeline_unknown,A,share_price_manipulation,vault share dilution
+harvest-fusdc-2020,Harvest Finance,Ethereum,defi,exploited_vulnerability_timeline_unknown,A,oracle_manipulation,vault asset loss
+hedgey-2024,Hedgey Finance,Ethereum / Arbitrum,defi,exploited_vulnerability_timeline_unknown,A,authorization_bypass,token and stablecoin loss
+hundred-2023,Hundred Finance,Optimism,defi,exploited_vulnerability_timeline_unknown,B,donation_attack,market drain
+kyberswap-elastic-2023,KyberSwap Elastic,multiple EVM networks,defi,exploited_vulnerability_timeline_unknown,A,rounding_or_precision,liquidity pool extraction
+kyberswap-legacy-2023,KyberSwap Elastic Legacy,multiple EVM networks,defi,publicly_disclosed_before_exploitation,A,accounting_invariant_violation,potential liquidity/reward extraction
+nomad-bridge-2022,Nomad Bridge,Ethereum / multiple EVM networks,bridge,exploited_vulnerability_timeline_unknown,A,initialization_failure,unauthorized bridge withdrawals
+pancakebunny-2021,PancakeBunny,BNB Chain,defi,exploited_vulnerability_timeline_unknown,A,oracle_manipulation,excess reward token issuance and market loss
+pancakebunny-oracle-variant,PancakeBunny,BNB Chain,oracle,publicly_disclosed_before_exploitation,B,oracle_manipulation,excess token issuance
+pickle-pdai-2020,Pickle Finance,Ethereum,defi,exploited_vulnerability_timeline_unknown,A,unsafe_external_call,vault asset loss
+platypus-usp-2023,Platypus Finance,Avalanche,defi,exploited_vulnerability_timeline_unknown,A,insolvency_check_bypass,stablecoin and collateral loss
+poly-network-2021,Poly Network,multiple chains,cross_chain,exploited_vulnerability_timeline_unknown,A,authorization_bypass,unauthorized cross-chain asset transfer
+radiant-2024,Radiant Capital,Arbitrum,defi,exploited_vulnerability_timeline_unknown,A,rounding_or_precision,lending market loss and bad debt
+uranium-2021,Uranium Finance,BNB Chain,defi,exploited_vulnerability_timeline_unknown,B,invariant_math_error,AMM reserve drain
+wormhole-2022,Wormhole,Solana / Ethereum,bridge,exploited_vulnerability_timeline_unknown,B,signature_verification_failure,unauthorized wrapped-asset issuance

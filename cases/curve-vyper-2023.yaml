@@ -1,0 +1,43 @@
+case_id: curve-vyper-2023
+cve: null
+protocol: Curve pools compiled with affected Vyper versions
+chain: Ethereum
+component: compiler-generated reentrancy guard
+scope: smart_contract
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: B
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: compiler_generated_lock_failure
+  vulnerable_condition: Compiler-generated reentrancy protection was ineffective for
+    affected output patterns.
+  violated_invariant: Critical external callbacks must not re-enter a protected state
+    transition before its accounting is finalized.
+  trust_boundary: compiler_output_to_runtime
+  privilege_requirement: permissionless
+  affected_function: compiler-generated reentrancy guard
+impact:
+  impact_type: liquidity loss from affected pools
+  loss_estimate: multiple Curve pools were drained in the incident
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Critical external callbacks must not re-enter a protected
+    state transition before its accounting is finalized.
+  invariant_tags:
+  - callback_reentrancy
+  - compiler_generated_lock_failure
+sources:
+- url: https://www.llamarisk.com/research/curve-pool-reentrancy-exploit-postmortem
+  role: technical
+  note: null

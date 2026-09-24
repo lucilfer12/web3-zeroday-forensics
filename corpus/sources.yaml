@@ -1,0 +1,31 @@
+- source: DeFiHackLabs
+  url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  role: incident_index
+  notes: Public index used for discovery; not sufficient alone for zero-day promotion.
+- source: Euler Finance
+  url: https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery
+  role: primary
+- source: Wormhole
+  url: https://wormhole.com/docs/protocol/security/
+  role: primary
+- source: Nomad
+  url: https://medium.com/nomad-xyz-blog/the-road-to-recovery-6abe5eec8ff1
+  role: primary
+- source: Poly Network
+  url: https://medium.com/poly-network/honour-exploit-and-code-how-we-lost-610m-dollar-and-got-it-back-c4a7d0606267
+  role: primary
+- source: Harvest Finance
+  url: https://docs.harvest.finance/other/security/incidents/fusdc-fusdt-economic-attack-oct-26-2020
+  role: primary
+- source: Pickle Finance
+  url: https://picklefinance.medium.com/pickle-was-hacked-and-there-has-been-a-loss-of-funds-414b99969c29
+  role: primary
+- source: KyberSwap
+  url: https://blog.kyberswap.com/post-mortem-kyberswap-elastic-exploit/
+  role: primary
+- source: Radiant Capital
+  url: https://medium.com/%40RadiantCapital/post-mortem-report-radiant-capital-aea46cb985ae
+  role: primary
+- source: Exactly Protocol
+  url: https://medium.com/%40exactly_protocol/exactly-protocol-incident-post-mortem-b4293d97e3ed
+  role: primary

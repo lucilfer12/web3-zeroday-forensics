@@ -1,0 +1,43 @@
+case_id: harvest-curve-y-2020
+cve: null
+protocol: Harvest Finance
+chain: Ethereum
+component: Curve Y pool strategy
+scope: oracle
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: share_price_manipulation
+  vulnerable_condition: The strategy valuation was coupled directly to an externally
+    manipulable pool state during the same atomic transaction.
+  violated_invariant: A vault share price must not be derived from a manipulable state
+    that an attacker can move and restore within one transaction.
+  trust_boundary: oracle_to_contract
+  privilege_requirement: permissionless
+  affected_function: Curve Y pool strategy
+impact:
+  impact_type: vault share dilution
+  loss_estimate: part of the Harvest October 2020 incident
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: A vault share price must not be derived from a manipulable
+    state that an attacker can move and restore within one transaction.
+  invariant_tags:
+  - share_price_manipulation
+  - oracle_manipulation
+sources:
+- url: https://docs.harvest.finance/archive/archived/grain-token
+  role: primary
+  note: null

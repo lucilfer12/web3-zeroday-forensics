@@ -1,0 +1,43 @@
+case_id: exactly-2023
+cve: null
+protocol: Exactly Protocol
+chain: Optimism
+component: DebtManager peripheral
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: input_validation_failure
+  vulnerable_condition: Peripheral leverage/deleverage functions accepted combinations
+    of user-controlled values that crossed intended authorization and repayment assumptions.
+  violated_invariant: A helper contract must preserve the same authorization and repayment
+    guarantees as the core accounting system it invokes.
+  trust_boundary: contract_to_contract
+  privilege_requirement: permissionless
+  affected_function: DebtManager peripheral
+impact:
+  impact_type: lending protocol asset loss
+  loss_estimate: approximately $7.6M reported
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: A helper contract must preserve the same authorization
+    and repayment guarantees as the core accounting system it invokes.
+  invariant_tags:
+  - input_validation_failure
+  - permit_validation
+sources:
+- url: https://medium.com/%40exactly_protocol/exactly-protocol-incident-post-mortem-b4293d97e3ed
+  role: primary
+  note: null

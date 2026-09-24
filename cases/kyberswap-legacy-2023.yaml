@@ -1,0 +1,44 @@
+case_id: kyberswap-legacy-2023
+cve: null
+protocol: KyberSwap Elastic Legacy
+chain: multiple EVM networks
+component: liquidity bookkeeping
+scope: defi
+classification: publicly_disclosed_before_exploitation
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: accounting_invariant_violation
+  vulnerable_condition: A specific sequence could double-count liquidity deposits
+    in the legacy pool/farm accounting.
+  violated_invariant: A deposit must contribute exactly once to both principal ownership
+    and reward/accounting state.
+  trust_boundary: contract_to_contract
+  privilege_requirement: permissionless
+  affected_function: liquidity bookkeeping
+impact:
+  impact_type: potential liquidity/reward extraction
+  loss_estimate: white-hat-disclosed vulnerability; affected contracts were paused
+    and patched
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: A deposit must contribute exactly once to both principal
+    ownership and reward/accounting state.
+  invariant_tags:
+  - accounting_invariant_violation
+  - reward_accounting
+sources:
+- url: https://support.kyberswap.com/hc/en-us/articles/13785791497113-What-is-KyberSwap-Elastic
+  role: primary
+  note: null

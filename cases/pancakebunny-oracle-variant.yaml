@@ -1,0 +1,43 @@
+case_id: pancakebunny-oracle-variant
+cve: null
+protocol: PancakeBunny
+chain: BNB Chain
+component: PriceCalculatorBSCV1
+scope: oracle
+classification: publicly_disclosed_before_exploitation
+evidence_grade: B
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: oracle_manipulation
+  vulnerable_condition: Spot reserve-derived LP valuation provided an attacker-controllable
+    input to a minting path.
+  violated_invariant: Price feeds used for minting should resist single-block reserve
+    manipulation or include a boundedness condition.
+  trust_boundary: oracle_to_contract
+  privilege_requirement: permissionless
+  affected_function: PriceCalculatorBSCV1
+impact:
+  impact_type: excess token issuance
+  loss_estimate: incident-related research record
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Price feeds used for minting should resist single-block
+    reserve manipulation or include a boundedness condition.
+  invariant_tags:
+  - oracle_manipulation
+  - share_price_manipulation
+sources:
+- url: https://pancakebunny.medium.com/code-security-the-past-present-and-future-4404009f301d
+  role: primary
+  note: null

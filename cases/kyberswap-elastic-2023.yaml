@@ -1,0 +1,43 @@
+case_id: kyberswap-elastic-2023
+cve: null
+protocol: KyberSwap Elastic
+chain: multiple EVM networks
+component: tick-based swap math
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: rounding_or_precision
+  vulnerable_condition: A rounding edge case around tick crossing produced an invalid
+    liquidity/price relationship.
+  violated_invariant: Tick traversal must conserve the protocol-defined liquidity
+    and price relations for every reachable swap state, including boundary-sized swaps.
+  trust_boundary: user_to_contract
+  privilege_requirement: permissionless
+  affected_function: tick-based swap math
+impact:
+  impact_type: liquidity pool extraction
+  loss_estimate: approximately $55M taken from affected pools
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Tick traversal must conserve the protocol-defined liquidity
+    and price relations for every reachable swap state, including boundary-sized swaps.
+  invariant_tags:
+  - rounding_or_precision
+  - invariant_math_error
+sources:
+- url: https://blog.kyberswap.com/post-mortem-kyberswap-elastic-exploit/
+  role: primary
+  note: null

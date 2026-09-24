@@ -1,0 +1,46 @@
+case_id: euler-v1-2023
+cve: null
+protocol: Euler Finance V1
+chain: Ethereum
+component: donateToReserves / liquidation path
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: insolvency_check_bypass
+  vulnerable_condition: A collateral donation path could make an account unhealthy
+    without preserving the health assumptions used by liquidation.
+  violated_invariant: An account transition must not create a protocol-profitable
+    self-liquidation state by bypassing the same health checks required for ordinary
+    risk transitions.
+  trust_boundary: user_to_contract
+  privilege_requirement: permissionless
+  affected_function: donateToReserves / liquidation path
+impact:
+  impact_type: protocol asset loss
+  loss_estimate: approximately $197M in exploited assets reported by Euler
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: An account transition must not create a protocol-profitable
+    self-liquidation state by bypassing the same health checks required for ordinary
+    risk transitions.
+  invariant_tags:
+  - liquidation_logic
+  - collateral_accounting
+  - accounting_invariant_violation
+sources:
+- url: https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery
+  role: primary
+  note: null

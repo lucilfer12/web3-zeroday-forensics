@@ -1,0 +1,53 @@
+contract_logic:
+  - accounting_invariant_violation
+  - authorization_bypass
+  - initialization_failure
+  - upgradeability_failure
+  - signature_verification_failure
+  - replay_protection_failure
+  - input_validation_failure
+  - unsafe_external_call
+  - callback_reentrancy
+  - read_only_reentrancy
+  - state_desynchronization
+  - incorrect_token_accounting
+  - rounding_or_precision
+  - insolvency_check_bypass
+  - unsafe_cast
+  - storage_collision
+
+defi:
+  - oracle_manipulation
+  - share_price_manipulation
+  - liquidation_logic
+  - collateral_accounting
+  - reward_accounting
+  - donation_attack
+  - slippage_failure
+  - fee_calculation
+  - invariant_math_error
+  - decimal_mismatch
+
+authentication:
+  - signature_domain_separation
+  - nonce_validation
+  - permit_validation
+  - trusted_forwarder_validation
+
+cross_chain:
+  - message_validation_failure
+  - proof_verification_failure
+  - nonce_or_sequence_failure
+  - replay_across_domain
+  - guardian_or_validator_assumption
+  - bridge_accounting_failure
+
+governance:
+  - voting_power_manipulation
+  - flash_loan_governance
+  - timelock_bypass
+  - proposal_state_validation
+
+compiler_and_toolchain:
+  - compiler_generated_lock_failure
+  - unsafe_compiler_output

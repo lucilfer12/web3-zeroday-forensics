@@ -1,0 +1,43 @@
+case_id: pancakebunny-2021
+cve: null
+protocol: PancakeBunny
+chain: BNB Chain
+component: LP valuation / reward minting
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: oracle_manipulation
+  vulnerable_condition: LP valuation relied on transient AMM reserve state and fed
+    that value into token minting.
+  violated_invariant: Reward or share issuance must not trust manipulable single-block
+    spot state as a durable measure of economic value.
+  trust_boundary: oracle_to_contract
+  privilege_requirement: permissionless
+  affected_function: LP valuation / reward minting
+impact:
+  impact_type: excess reward token issuance and market loss
+  loss_estimate: approximately $45M in reported incident impact
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Reward or share issuance must not trust manipulable single-block
+    spot state as a durable measure of economic value.
+  invariant_tags:
+  - oracle_manipulation
+  - share_price_manipulation
+sources:
+- url: https://pancakebunny.medium.com/code-security-the-past-present-and-future-4404009f301d
+  role: primary
+  note: null

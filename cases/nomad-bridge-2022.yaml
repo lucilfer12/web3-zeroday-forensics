@@ -1,0 +1,46 @@
+case_id: nomad-bridge-2022
+cve: null
+protocol: Nomad Bridge
+chain: Ethereum / multiple EVM networks
+component: Replica initialization / message verification
+scope: bridge
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: initialization_failure
+  vulnerable_condition: The trusted message-root state could be placed into an attacker-chosen
+    initialized state, undermining message verification.
+  violated_invariant: A cross-chain withdrawal must be backed by an authenticated
+    source-state transition rooted in trusted state.
+  trust_boundary: initialization_to_runtime
+  privilege_requirement: permissionless
+  affected_function: Replica initialization / message verification
+impact:
+  impact_type: unauthorized bridge withdrawals
+  loss_estimate: more than $186M reported in Nomad post-incident material
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: A cross-chain withdrawal must be backed by an authenticated
+    source-state transition rooted in trusted state.
+  invariant_tags:
+  - initialization_failure
+  - message_validation_failure
+sources:
+- url: https://medium.com/nomad-xyz-blog/the-road-to-recovery-6abe5eec8ff1
+  role: primary
+  note: null
+- url: https://www.chainscorelabs.com/protocol/ethereum/incidents-and-security-advisories/nomad-bridge-exploit-2022
+  role: technical
+  note: null

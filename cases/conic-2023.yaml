@@ -1,0 +1,46 @@
+case_id: conic-2023
+cve: null
+protocol: Conic Finance
+chain: Ethereum
+component: ETH Omnipool oracle / reentrancy boundary
+scope: defi
+classification: exploited_vulnerability_timeline_unknown
+evidence_grade: A
+timeline:
+  discovery_date: null
+  exploit_date: null
+  patch_date: null
+  public_disclosure_date: null
+root_cause:
+  bug_class: read_only_reentrancy
+  vulnerable_condition: A reentrant callback observed a manipulated Curve LP state
+    through an oracle that did not recognize the relevant WETH-backed pool as protected.
+  violated_invariant: Price reads during external callbacks must not consume intermediate
+    pool state as if it were a finalized state.
+  trust_boundary: callback_boundary
+  privilege_requirement: permissionless
+  affected_function: ETH Omnipool oracle / reentrancy boundary
+impact:
+  impact_type: Omnipool asset loss
+  loss_estimate: approximately $3.2M reported for the ETH Omnipool incident
+  assets: []
+patch:
+  strategy: null
+  root_cause_fixed: null
+  notes: Patch details require case-level source review; keep unknowns explicit.
+relations:
+  variant_of: null
+  related_cases: []
+research:
+  safe_regression_property: Price reads during external callbacks must not consume
+    intermediate pool state as if it were a finalized state.
+  invariant_tags:
+  - read_only_reentrancy
+  - oracle_manipulation
+sources:
+- url: https://medium.com/%40ConicFinance/post-mortem-eth-and-crvusd-omnipool-exploits-c9c7fa213a3d
+  role: primary
+  note: null
+- url: https://itokenly.com/hacks/conic-finance
+  role: secondary
+  note: null
